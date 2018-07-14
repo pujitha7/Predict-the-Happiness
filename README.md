@@ -1,6 +1,10 @@
 # Predict-the-Happiness
-Sentiment Analysis NLP based problem to perform hotel customer review analysis.
+Sentiment Analysis problem to perform Hotel Customer Review analysis.
 
-Word2Vec+LSTM+Feed forward Neural Network
+Hackerearth problem.
 
-Accuracy of 89.5% on test data
+Ranked in Top 50.
+
+Model: Word2Vec+LSTM+Feed forward Neural Network
+
+Accuracy of 89.35% on test data
