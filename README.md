@@ -24,9 +24,9 @@ Target is 0 - not happy or 1 - happy.
 
 A keras model is built such that it takes Word2vec representation of each word of the review as input.
 
-The input is then passed through LSTM model.
+The input is then passed through LSTM layer.
 
-The output representation from LSTM model is then passed through the Dense layer.
+The output representation from LSTM layer is then passed through the Dense layer.
 
 Finally a sigmoid layer is added which outputs the probability of the review beloging to class 1.
 
