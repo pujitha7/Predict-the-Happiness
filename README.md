@@ -6,11 +6,11 @@ https://www.hackerearth.com/challenge/competitive/predict-the-happiness/problems
 
 This was a contest to predict whether costumers were happy or not about a hotel and their service from their reviews.
 
-# TOOLS USED:
+## TOOLS USED:
 
 Python 3.6, Numpy, Pandas, NLTK, ,Gensim, SKLearn, Keras. 
 
-# DATA PRE-PROCESSING:
+## DATA PRE-PROCESSING:
 
 Basic preprocessing on text such as converting to lowercase, removing punctuation, removing stop words is performed.
 
@@ -20,7 +20,7 @@ Using Word2Vec a dense representation is obtained for each word. So, each prepro
 
 Target is 0 - not happy or 1 - happy.
 
-# MODEL BUILDING:
+## MODEL BUILDING:
 
 A keras model is built such that it takes Word2vec representation of each word of the review as input.
 
@@ -32,7 +32,7 @@ Finally a sigmoid layer is added which outputs the probability of the review bel
 
 It is trained with ADAM optimizer and loss being Binary crossentropy.
 
-# Performance:
+## Performance:
 
 Metric is Accuracy.
 
